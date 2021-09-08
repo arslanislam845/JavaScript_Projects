@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <title>Report Card</title>
+</head>
+<body>
+    <form >
+        <div>
+            <table class="table">
+                <h1 class="report_heading">Report Card</h1>
+
+                <thead>
+                <tr>
+                    <th scope="col">Subjects</th>
+                    <th scope="col">Yours Marks</th>     
+                </tr>
+                </thead>
+                <tbody>
+                <tr>  
+                    <td>English</td>
+                    <td><input type="number" class="input_fields_eng " ></input></td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td><input type="number" class="input_fields_phy " > </input></td>
+                </tr>
+                <tr>    
+                    <td >Math</td>
+                    <td><input type="number" class="input_fields_math " ></input></td>
+                </tr>
+                <tr>  
+                    <td>Chemistry</td>
+                    <td><input type="number" class="input_fields_chem "  ></input></td>
+                </tr>
+                <tr>
+                    <td>Biology</td>
+                    <td><input type="number" class="input_fields_bio "   ></input></td>
+                </tr>
+                <tr>    
+                    <td>Urdu</td>
+                    <td><input type="number" class="input_fields_urdu "></input></td>
+                </tr>
+                </tbody>
+            </table>
+        <div>
+        <div>
+                   
+        </div> 
+     <!-- Button trigger modal -->
+    <button type="button"  id="myBtn" class="btn btn-primary result_button" >
+        Result
+    </button>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">   
+      <!-- Modal content -->
+      <div class="modal-content display_result" id="display_result">
+        <span class="close">&times;</span>
+        <h3> Your Result is  </h3> <br>
+        <p>----------------------------------------------------------</p>
+        <h5> Total Marks : <span class="span2">600</span> </h5> <br>
+        <h5> Obtained Marks : <span class="span3"><input type="number" id="addition"></input></span></h5><br>
+        <h5> Your Grade : <span class="span4"><input type="text" id="grade"></input></span></h5><br>
+        <h5> Marks Persentage: <span class="span5"><input type="number" id="persentage"></input></span></h5><br>
+      </div>
+    
+    </div>
+</form>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

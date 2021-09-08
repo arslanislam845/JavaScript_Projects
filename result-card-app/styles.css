@@ -1,0 +1,123 @@
+
+.table{
+    background-color: rgb(51, 77, 228);
+    color: white;
+    margin-left: 25%;
+    width: 49%;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: white;
+    border-bottom-style: hidden;
+    color: white;
+    background-color: blue;
+    width: 37%;
+  }
+h1{
+ color: blue;
+}
+.report_heading{
+    margin: 2rem 3rem;
+    text-align: center;
+}
+.result_button{
+    margin-top: 1%;
+    margin-left: 46%;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.save_button{
+    margin-left: 36%;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.display_result{
+    display: none;
+    
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+    width: 2rem;
+   
+}
+
+#display_result{
+  
+   margin: 2rem 30%;
+   background-color: blue;
+   color: white;
+    
+}
+
+
+.span2{
+    margin-left: 6.7rem;
+}
+.span3{
+
+    margin-left: 4rem;
+}
+.span4{
+    
+    margin-left: 7rem;
+}
+.span5{
+  
+    margin-left: 3rem;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+h3{
+    margin-top: -1rem;
+    text-align: center;
+}
+p{
+    margin-top: -2rem;
+}
